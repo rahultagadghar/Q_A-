@@ -1,0 +1,75 @@
+.mainDiv {
+    padding: 1rem;
+    border: 1px solid lightgray;
+    text-align: center;
+    margin: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.content {
+    padding: 0.5rem;
+}
+
+.border-bot {
+    border-bottom: 1px solid lightgrey;
+}
+
+.Language {
+    color: white;
+    font-weight: 900;
+}
+
+.code {
+    display: flex;
+    justify-content: center;
+}
+
+.code > div {
+    border-right: 1px solid white;
+    border-radius: 0.4rem;
+}
+
+.csharp,
+.java {
+    display: flex;
+    flex-flow: column;
+    padding: 0.8rem;
+    background-color: #272822;
+    border-radius: 0.4rem;
+}
+.addAnswer {
+    padding: 1rem;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+}
+.addAnswer > textarea {
+    margin: 1rem 0 1rem;
+}
+.extraMargin {
+    margin: 0.6rem 0 0 0.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .code {
+        flex-flow: column;
+    }
+    .code > div {
+        border-bottom: 1px solid white;
+    }
+    .extraMargin {
+        margin: 1rem 0 0 0;
+    }
+}
+
+.displayAnswerCode {
+    text-align: left;
+}
+
+pre {
+    color: #fd971f;
+}
+
+input {
+    text-align: center;
+}
